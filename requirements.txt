@@ -1,0 +1,4 @@
+PyQt6>=6.6
+holehe>=1.61
+httpx>=0.24
+trio>=0.22
