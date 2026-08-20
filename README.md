@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyQt6](https://img.shields.io/badge/UI-PyQt6-41CD52.svg)](https://www.riverbankcomputing.com/software/pyqt/)
 [![Holehe](https://img.shields.io/badge/Engine-Holehe-orange.svg)](https://github.com/megadose/holehe)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
 ## Overview
 
@@ -334,9 +334,14 @@ Holehe GUI is built around the [Holehe](https://github.com/megadose/holehe) OSIN
 
 ## License
 
-This project is licensed under the **MIT License**. See [`LICENSE`](LICENSE) for the complete license text.
+This project is licensed under the **GNU General Public License v3.0**. See [`LICENSE`](LICENSE) for the complete license text.
 
-**SPDX-License-Identifier:** `MIT`
+**SPDX-License-Identifier:** `GPL-3.0-or-later`
+
+GPL-3.0 is not a preference here, it is inherited. This GUI imports
+[`holehe`](https://github.com/megadose/holehe) directly (`import holehe.core`)
+rather than shelling out to it, so the combined work is a derivative of a
+GPL-3.0 library and must be distributed under the same terms.
 
 Copyright © 2026 **Shaik Saeed Jamal Hussain**.
 
